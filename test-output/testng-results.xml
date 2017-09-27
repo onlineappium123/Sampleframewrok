@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60166" started-at="2017-09-26T04:12:14Z" finished-at="2017-09-26T04:13:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60166" started-at="2017-09-26T04:12:14Z" finished-at="2017-09-26T04:13:14Z">
+      <class name="com.TestScript.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestScript.LoginTest@13deb50e]" name="setup" is-config="true" duration-ms="9766" started-at="2017-09-26T09:42:47Z" finished-at="2017-09-26T09:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Logintoapplication()[pri:1, instance:com.TestScript.LoginTest@13deb50e]" name="Logintoapplication" duration-ms="16636" started-at="2017-09-26T09:42:57Z" description="Login to the application" finished-at="2017-09-26T09:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintoapplication -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestScript.LoginTest@13deb50e]" name="teardown" is-config="true" duration-ms="747" started-at="2017-09-26T09:43:13Z" finished-at="2017-09-26T09:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestScript.LoginTest -->
+      <class name="com.TestScript.RegisterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestScript.RegisterTest@f6c48ac]" name="setup" is-config="true" duration-ms="10667" started-at="2017-09-26T09:42:14Z" finished-at="2017-09-26T09:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registersignin()[pri:1, instance:com.TestScript.RegisterTest@f6c48ac]" name="registersignin" duration-ms="21475" started-at="2017-09-26T09:42:25Z" description="Reigster the user details" finished-at="2017-09-26T09:42:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registersignin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestScript.RegisterTest@f6c48ac]" name="teardown" is-config="true" duration-ms="852" started-at="2017-09-26T09:42:46Z" finished-at="2017-09-26T09:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestScript.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
